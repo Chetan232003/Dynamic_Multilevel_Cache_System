@@ -3,16 +3,16 @@ This Java application demonstrates the implementation of a dynamic multilevel ca
 
 ## Table of Contents
 - [Features](#features)
+- [Eviction Policies](#eviction-policies)]
 - [Usage](#usage)
   - [Add Cache Level](#add-cache-level)
   - [Insert Key-Value Pair](#insert-key-value-pair)
   - [Retrieve Value by Key](#retrieve-value-by-key)
   - [Remove Cache Level](#remove-cache-level)
   - [Display Cache](#display-cache)
-- [How It Works](#how-it-works)
+
 - [Installation](#installation)
-  - [LRU Policy](#lru-policy)
-  - [LFU Policy](#lfu-policy)
+
 
 - [License](#license)
 
@@ -29,24 +29,26 @@ This Java application demonstrates the implementation of a dynamic multilevel ca
 
 ## Usage
 
-1. **Add Cache Levels:**
+1. **Add a Cache Level:**
    - Specify the size of the cache level and the eviction policy (LRU or LFU).
    
-2. **Insert Key-Value Pairs:**
+2. **Insert a Key-Value Pair:**
    - Insert key-value pairs, which are stored in the first cache level (L1).
    
-3. **Retrieve Values by Key:**
+3. **Retrieve a Value by Key:**
    - Retrieve values by providing the key. If the value exists in any cache level, it will be returned.
    
 4. **Remove Cache Levels:**
    - Remove specific cache levels by their index (e.g., L1, L2, etc.).
+5. **Display Cache:**
+   
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/Chetan232003/Multilevel_Cache_System.git
    ```
 
 2. Navigate to the project directory:
